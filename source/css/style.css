@@ -331,7 +331,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0 10px;
-  background-color: #455c73;
+  background-color: #6f8ba0;
   color: #ffffff;
 }
 .container__right {
@@ -351,7 +351,7 @@ body {
   right: 0;
   width: 150px;
 }
-@media (max-width: 768px) and screen {
+@media only screen and (max-width: 768px) {
   .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -508,7 +508,7 @@ body {
   font-size: 12px;
   font-style: italic;
 }
-@media (max-width: 768px) and screen {
+@media only screen and (max-width: 768px) {
   .languages__table {
     width: auto;
   }
@@ -567,7 +567,7 @@ body {
   height: 8px;
   border-radius: 50%;
   border: solid 2px #ffffff;
-  background-color: #455c73;
+  background-color: #6f8ba0;
 }
 .education__header {
   display: -webkit-box;
@@ -663,7 +663,7 @@ body {
   width: calc(50% - 40px);
   margin: 20px;
 }
-@media (max-width: 576px) and screen {
+@media only screen and (max-width: 576px) {
   .projects__list {
     margin: -20px 0;
   }
