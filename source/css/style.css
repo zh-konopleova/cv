@@ -351,7 +351,7 @@ body {
   right: 0;
   width: 150px;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and screen {
   .container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -508,7 +508,7 @@ body {
   font-size: 12px;
   font-style: italic;
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and screen {
   .languages__table {
     width: auto;
   }
@@ -663,7 +663,7 @@ body {
   width: calc(50% - 40px);
   margin: 20px;
 }
-@media (max-width: 576px) {
+@media (max-width: 576px) and screen {
   .projects__list {
     margin: -20px 0;
   }
