@@ -1,0 +1,41 @@
+.job__h {
+  margin: 0;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.job__date {
+  margin: 0;
+  font-style: italic;
+  color: gray;
+}
+
+.job__position {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.jobs__responsibility-list {
+  padding-left: 25px;
+  list-style: none;
+}
+
+.jobs__responsibility-item {
+  position: relative;
+}
+
+.jobs__responsibility-item::before {
+  content: "";
+  position: absolute;
+  left: -17.5px;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background-color: gray;
+}

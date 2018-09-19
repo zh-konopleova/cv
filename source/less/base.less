@@ -1,0 +1,57 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@page {
+  size: auto;
+  margin: 0mm;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 210mm;
+  max-width: 100%;
+
+  margin: auto;
+}
+
+.container__left {
+  width: 35%;
+  box-sizing: border-box;
+  height: 297mm;
+  padding: 0 10px;
+  background-color: #455c73;
+  color: #ffffff;
+}
+
+.container__right {
+  position: relative;
+  width: 65%;
+  padding: 0 10px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+// TODO: implement
+.visually-hidden {
+  display: none;
+}
+
+.qr-code {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
