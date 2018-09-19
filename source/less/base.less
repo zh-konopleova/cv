@@ -10,11 +10,6 @@ body {
   line-height: 18px;
 }
 
-@page {
-  size: auto;
-  margin: 0mm;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -29,7 +24,6 @@ body {
 .container__left {
   width: 35%;
   box-sizing: border-box;
-  height: 297mm;
   padding: 0 10px;
   background-color: #455c73;
   color: #ffffff;
@@ -54,4 +48,19 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+  }
+
+  @page {
+    size: A4;
+    margin: 0mm;
+  }
+
+  .container {
+    height: 297mm;
+  }
 }
